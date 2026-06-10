@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Lily's Website</title>
+    <!-- Links directly to your single main stylesheet -->
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+     <!-- FIXED NAVIGATION BAR -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html#home" class="nav-link">Home</a>
+            <a href="index.html#about" class="nav-link">About Me</a>
+            <a href="index.html#whatilove" class="nav-link">What I Love</a>
+            <a href="index.html#academicgrowth" class="nav-link">Academic Growth</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO HEADER SECTION -->
+<header class="hero" style="position: relative; min-height: 250px; width: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+    
+    <img src="images/games header.jpg" alt="Games Header Background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+    
+    <div class="hero-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.15); z-index: 2;"></div>
+    
+    <div class="hero-content" style="position: relative; z-index: 3; text-align: center;">
+        <h1 class="hero-title" style="color: white; font-size: 3.5rem; margin: 0; font-weight: bold; text-shadow: 2px 2px 8px rgba(0,0,0,0.4);">Games</h1>
+    </div>
+
+</header>
+
+<div class="games-intro-container" style="max-width: 900px; margin: 40px auto 20px auto; padding: 0 20px; text-align: center;">
+    <p style="color: white; font-size: 1.15rem; line-height: 1.8; margin-bottom: 15px;">
+        Gaming is one of my favorite ways to unwind and have fun. I love exploring vibrant worlds, managing virtual lives, and playing online with friends.
+    </p>
+    <p style="color: white; font-size: 1.15rem; line-height: 1.8; margin-bottom: 0;">
+        Whether I am cozying up with my Nintendo Switch, building a dream mansion in The Sims, or jumping into custom minigames on Roblox, gaming always keeps me entertained.
+    </p>
+</div>
+
+    <!-- MAIN TWO-COLUMN LAYOUT CONTENT -->
+    <main class="games-layout-wrapper">
+        <div class="games-split-container">
+            
+            <!-- LEFT SIDE: PROGRESS LOG CONSOLE BOX -->
+            <section class="table-column">
+                <div class="table-box-container">
+                    <h2 class="section-title-alt">Gaming Status Tracker 🕹️</h2>
+                    <p class="section-desc-alt">Games that currently have my entire attention span!</p>
+                    <div class="table-responsive-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Game Title</th>
+                                    <th>Platform</th>
+                                    <th>Genre</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The Sims 4</td>
+                                    <td>PC / Laptop</td>
+                                    <td>Life Simulation</td>
+                                    <td><span class="status-badge playing">Playing</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Animal Crossing: New Horizons</td>
+                                    <td>Nintendo Switch</td>
+                                    <td>Cozy Simulation</td>
+                                    <td><span class="status-badge playing">Playing</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Any Horror Games (Roblox)</td>
+                                    <td>Roblox (PC/Mobile)</td>
+                                    <td>Arcade</td>
+                                    <td><span class="status-badge playing">Playing</span></td>
+                                </tr>
+                                <tr>
+                                    <td>The Legend of Zelda: Breath of the Wild</td>
+                                    <td>Nintendo Switch</td>
+                                    <td>Action-Adventure</td>
+                                    <td><span class="status-badge to-play">To Play</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RIGHT SIDE: THE FAVOURITE PLATFORMS BOX -->
+            <section class="favourites-column">
+                <div class="fav-container">
+                    <h2 class="fav-container-title">The favourite Games ✨</h2>
+                    <p class="section-desc">I will always repeatedly play these games. But sometimes I do not have any much time to play it since I have a busy schedule.>_< </p>
+                    
+                    <div class="fav-grid">
+                        <!-- Card 1: Nintendo -->
+                        <article class="fav-card">
+                            <div class="img-wrapper">
+                                <img src="images/games/animal crossing.jpg" alt="Nintendo Switch" onerror="this.style.background='#ffd6e7';this.style.height='240px'"/>
+                            </div>
+                            <div class="fav-body">
+                                <div class="fav-stars">★★★★★</div>
+                                <p class="fav-review">I absolutely love playing Animal Crossing as it calm my soul.</p>
+                            </div>
+                        </article>
+
+                        <!-- Card 2: The Sims -->
+                        <article class="fav-card">
+                            <div class="img-wrapper">
+                                <img src="images/games/the sims 4.jpg" alt="The Sims" onerror="this.style.background='#ffd6e7';this.style.height='240px'"/>
+                            </div>
+                            <div class="fav-body">
+                                <div class="fav-stars">★★★★★</div>
+                                <p class="fav-review">Building houses and creating storylines for hours is so therapeutic! I love collecting packs.</p>
+                            </div>
+                        </article>
+
+                        <!-- Card 3: Roblox -->
+                        <article class="fav-card">
+                            <div class="img-wrapper">
+                                <img src="images/games/roblox.jpg" alt="Roblox" onerror="this.style.background='#ffd6e7';this.style.height='240px'"/>
+                            </div>
+                            <div class="fav-body">
+                                <div class="fav-stars">★★★★★</div>
+                                <p class="fav-review">Roblox is so much fun because there are endless custom worlds to play with friends! It never gets old.</p>
+                            </div>
+                        </article>
+                    </div> 
+                </div> 
+            </section>
+
+        </div>
+    </main>
+
+        <!-- My games gallery section -->
+    <section class="gaming-gallery-section">
+        <div class="gallery-container">
+            <h2 class="gallery-title">My Gaming Moments 📸</h2>
+            <p class="gallery-desc">Check out some clips and screenshots from my favorite gaming sessions!</p>
+            
+            <div class="gallery-grid">
+                <!-- Item 1: Roblox Video or Image -->
+                <div class="gallery-item">
+                    <div class="media-box">
+                        <!-- Swap to <img src="images/roblox-pic.jpg"> if you want a picture instead -->
+                        <video src="videos/roblox.mp4" controls poster="images/roblox-poster.jpg"></video>
+                    </div>
+                    <div class="gallery-caption">
+                        <span class="gallery-tag roblox">Roblox</span>
+                        <p> I do not have any video of me playing roblox, but I do have some picture so here it is. Winning mini-games with friends or showing off fits in Dress To Impress!</p>
+                    </div>
+                </div>
+
+                <!-- Item 2: Nintendo Switch Photo -->
+                <div class="gallery-item">
+                    <div class="media-box">
+                        <video controls>
+                            <source src="videos/animal crossing video.mp4" alt="My Animal Crossing Island Layout" onerror="this.style.background='#ffd6e7';this.style.height='200px'">
+                        </video>
+                    </div>
+                    <div class="gallery-caption">
+                        <span class="gallery-tag nintendo">Nintendo</span>
+                        <p>A little tour of my island in Animal Crossing: New Horizons. So cozy! This is my favourite game if I want to relax and unwind.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3: The Sims Photo -->
+                <div class="gallery-item">
+                    <div class="media-box">
+                        <video controls>
+                            <source src="videos/the sims.mp4" alt="My Animal Crossing Island Layout" onerror="this.style.background='#ffd6e7';this.style.height='200px'">
+                        </video
+                    </div>
+                    <div class="gallery-caption">
+                        <span class="gallery-tag sims">The Sims</span>
+                        <p>Spent 5 hours building this aesthetic modern mansion yesterday!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <p class="section-desc" style="text-align: center; margin-top: 40px;">I also read other authors, but these are the ones that I read the most. Do tell me if you have any suggestions!</p>
+      <p class="section-desc" style="text-align: center; margin-bottom: 24px;">Bye, thank you for reading it out ( •̀ ω •́ )y</p>
+      <div style="text-align: center; margin-bottom: 50px;">
+        <a href="index.html#whatilove" class="music-back-btn alternate" style="display: inline-block;">← Back to What I Love</a>
+      </div>
+      </section>
+
+</body>
+</html>
